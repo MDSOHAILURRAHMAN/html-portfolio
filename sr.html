@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sohail's Portfolio</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #fdfdfd;
+            color: #333;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #ff7eb3, #ff758c);
+            color: #fff;
+            padding: 2.5rem 1rem;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Navigation */
+        nav {
+            background: #ffebe1;
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: #ff5c8a;
+            margin: 0 1.5rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #d81159;
+        }
+
+        /* Sections */
+        section {
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: #222;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: linear-gradient(145deg, #6c5ce7, #a29bfe);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 300px;
+            color: #fff;
+            text-align: left;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .project-card h3 {
+            background: #4834d4;
+            margin: 0;
+            padding: 1rem;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        .project-card p {
+            padding: 1rem;
+            font-size: 1rem;
+        }
+
+        /* About and Contact Section */
+        #about {
+            background: linear-gradient(135deg, #81ecec, #00cec9);
+            color: #fff;
+        }
+
+        #about p {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        #about a {
+            color: #fdcb6e;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        #about a:hover {
+            color: #ffeaa7;
+        }
+
+        #contact {
+            background: linear-gradient(135deg, #fab1a0, #ff7675);
+            color: #fff;
+        }
+
+        #contact p {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        #contact a {
+            color: #ffeaa7;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        #contact a:hover {
+            color: #ffda79;
+        }
+
+        /* Footer */
+        footer {
+            background: #2d3436;
+            color: #b2bec3;
+            padding: 1.5rem 0;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #d63031;
+            margin: 0 0.5rem;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #e17055;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sohail's Portfolio</h1>
+        <p>Welcome! I'm a passionate Web and Software Developer.</p>
+    </header>
+
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Task Management System</h3>
+                <p>A web-based tool to create, assign, and manage tasks for teams, featuring real-time updates and analytics dashboards.</p>
+            </div>
+            <div class="project-card">
+                <h3>E-Commerce Inventory Manager</h3>
+                <p>A Java-based application to manage product inventory, track sales, and generate revenue reports.</p>
+            </div>
+            <div class="project-card">
+                <h3>Chat Application</h3>
+                <p>A real-time chat app using WebSockets for instant messaging with user authentication and group chat features.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Md Sohailur Rahman. I’m a Software Developer with expertise in Python, C, C++, HTML, Java, CSS, and JavaScript. I enjoy building impactful and creative applications.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:mdsohail4845@gmail.com">mdsohail4845@gmail.com</a></p>
+        <p>Follow me on Instagram: <a href="https://www.instagram.com/md_sohailur_rahman?igsh=MWJud25zOGtoaXBvZA==" target="_blank">Instagram</a></p>
+        <p>Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/md-sohailur-rahman-a766a4290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></p>
+        <p>Follow me on Facebook: <a href="https://www.facebook.com/profile.php?id=100065518461142&mibextid=ZbWKwL" target="_blank">Facebook</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Md Sohailur Rahman | <a href="https://www.instagram.com/md_sohailur_rahman?igsh=MWJud25zOGtoaXBvZA==" target="_blank">Instagram</a> | <a href="https://www.linkedin.com/in/md-sohailur-rahman-a766a4290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a> | <a href="https://www.facebook.com/profile.php?id=100065518461142&mibextid=ZbWKwL" target="_blank">Facebook</a></p>
+    </footer>
+</body>
+</html>
